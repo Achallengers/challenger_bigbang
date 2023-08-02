@@ -11,29 +11,31 @@
     </header>
     <div class="row">
       <div class="col-6">
-        <Card></Card>
+        <CardComponent></CardComponent>
       </div>
       <div class="col-6">
-        <Card></Card>
+        <CardComponent></CardComponent>
       </div>
     </div>
     <div class="row">
-      <div class="col-12">Menu aqui</div>
+      <div class="col-12"><Navbar></Navbar></div>
     </div>
     <div class="row">
       <div class="col-12">
-        <Card></Card>
+        <CardComponent></CardComponent>
       </div>
     </div>
   </div>
 </template>
 
 <script scoped>
-import Card from "../components/Card.vue";
+import CardComponent from "../components/CardComponent.vue";
+import Navbar from '../components/NavBar.vue'
 
 export default {
   components: {
-    Card,
+    CardComponent,
+    Navbar
   },
 };
 </script>

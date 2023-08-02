@@ -1,29 +1,51 @@
 <template>
   <div class="sidebar-right">
-    <h6>Tarefas de Hoje</h6>
-    <div class="row">
-      <div class="col-12">
-        <Card></Card>
+    <div class="task-today">
+      <p class="title">Tarefas de Hoje</p>
+      <div class="row">
+        <div class="col-12">
+          <CardComponent></CardComponent>
+        </div>
+        <div class="col-12">
+          <CardComponent></CardComponent>
+        </div>
       </div>
     </div>
-    <h6>Projeto Recente</h6>
+    <div>
+      <p class="title">Tarefas de Hoje</p>
+      <div class="row">
+        <div class="col-12">
+          <CardComponent></CardComponent>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script scoped>
-import Card from "../components/card.vue";
+import CardComponent from "../components/CardComponent.vue";
 
 export default {
   components: {
-    Card,
+    CardComponent,
   },
 };
 </script>
 
 <style>
 .sidebar-right {
-  padding: 10px;
+  padding: 24px;
   border: 1px solid #ccc;
   background-color: #e0e0e0;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.task-today{
+  margin-bottom: 32px;
 }
 </style>

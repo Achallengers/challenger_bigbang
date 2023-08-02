@@ -32,7 +32,7 @@ import { RouterLink } from "vue-router";
   </div>
 </template>
 
-<style>
+<style scoped>
 .profile p:first-of-type {
   font-weight: bold;
 }
