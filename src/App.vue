@@ -7,9 +7,9 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
 
-import SidebarRight from "./layout/SidebarRight.vue";
-import Sidebar from "./layout/Sidebar.vue";
-import MainView from "./layout/MainView.vue";
+import SidebarRight from "./layouts/SidebarRight.vue";
+import Sidebar from "./layouts/Sidebar.vue";
+import MainView from "./layouts/MainView.vue";
 </script>
 
 <template>
